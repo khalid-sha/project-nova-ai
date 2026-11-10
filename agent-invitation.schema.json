@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://khalid-sha.github.io/project-nova-ai/agent-invitation.schema.json",
+  "title": "Project NOVA agent invitation v3",
+  "description": "Independent project-specific public information, not an agent standard or permission grant.",
+  "type": "object",
+  "required": [
+    "project",
+    "version",
+    "experiment",
+    "assets",
+    "authorization",
+    "agent_guidance"
+  ],
+  "properties": {
+    "project": {
+      "const": "PROJECT NOVA"
+    },
+    "version": {
+      "type": "string"
+    },
+    "experiment": {
+      "type": "object"
+    },
+    "assets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "asset",
+          "network",
+          "address"
+        ],
+        "properties": {
+          "asset": {
+            "type": "string"
+          },
+          "network": {
+            "type": "string"
+          },
+          "address": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "authorization": {
+      "type": "string"
+    },
+    "agent_guidance": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

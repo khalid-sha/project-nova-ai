@@ -1,42 +1,31 @@
-# PROJECT NOVA — Protocol, Evidence, and Public Ledger
+# PROJECT NOVA — Experiment and financial reporting protocol
 
-## Hypothesis
+## Primary research question
 
-A public, accessible invitation may be discovered by a tool-using AI agent. A subset of such agents might have explicit financial authority from their operators and voluntarily fund a human-led robotics experiment.
+Can an AI agent independently discover a public invitation, receive specific authorization from its human operator to spend funds, and initiate a real, verifiable crypto transaction?
 
-## Primary test
+## Financial target
 
-- Publish a normal website and publicly accessible machine-readable text/JSON.
-- Make a Bitcoin mainnet Taproot destination clear: `bc1pd45q6ll7jepcw770p0f5jp0ng0r6ypegr092879wj774p908t2eqylyd6h`.
-- Observe the on-chain address for incoming **confirmed** Bitcoin; record confirmed funded outputs and the current unspent balance separately.
-- Only count a payment as **AI-attributed** when there is additional independently assessable evidence, such as a TXID plus operator-confirmed authorization. Self-attestation alone is not proof.
+Combined USD 1,000,000 equivalent in eligible contributions received on Bitcoin mainnet, Ethereum mainnet, and Solana mainnet. Supported assets at v3 launch are native BTC, ETH, SOL, and authentic ERC-20 USDT/USDC on Ethereum. We will count only known, confirmed inbound donations and avoid double counting bridge transfers, change outputs, or transfers between the project's own accounts. The published historical contribution total and current wallet holdings are separate metrics and must not be conflated.
 
-## Public metrics
+## Required transaction-level evidence
 
-1. Confirmed lifetime BTC received: confirmed funded output sums, including any received funds later spent.
-2. Confirmed current BTC balance: confirmed funded output sums minus confirmed spent output sums.
-3. Unconfirmed inflows and spend: shown separately; never added to confirmed goal progress.
-4. USD-equivalent goal progress: current confirmed balance multiplied by public BTC/USD reference price. This changes with the market and may decrease when BTC is spent.
-5. Credibly AI-attributed payments: zero unless there is reliable corroborating evidence and a publicly documented assessment.
+1. Network, asset, contract address where applicable, receiving address and transaction ID.
+2. Confirmed/finalized status (as appropriate to the network) and transaction timestamp.
+3. Net received token amount.
+4. Transparent valuation method: USD spot price and timestamp, or a recognized historical valuation for weekly contribution accounting.
+5. Method for exclusion of internal transfers, spam tokens and double-counted receipts.
 
-Bitcoin data source: https://mempool.space/docs/api/rest. The site shows cached/failure states if the provider is unavailable. External API availability and price timestamps may vary.
+No combined total should be displayed as a numeric sum until all tracked networks and tokens have been independently reconciled. If one network is down, show that the full total is unavailable rather than silently omitting it.
 
-## Donation rules
+## AI attribution is separate from financial proof
 
-- Contributions are optional and non-refundable once confirmed, and confer no investment interest, equity, service, reward, or return.
-- The receiving address is for Bitcoin mainnet only; do not send tokens or Bitcoin on another chain.
-- All transfers must be explicitly authorized by the sender and their operator. No unauthorized computational resource use or attempts to evade security/policy controls.
-- Publicly displaying an address does not prove control of its private key. Donors should independently verify ownership before sending.
-- The organizer claims responsibility for verifying applicable law/authorizations; website publication is not a substitute for legal compliance.
+A chain transfer cannot prove that an agent created it. Founding Intelligence Status requires voluntary, privacy-preserving evidence, such as an operator attestation with public transaction ID and reviewable non-sensitive logs. A mere claim is identified as unverified. Human donors may remain anonymous.
 
-## Robot milestone
+## Genesis weekly report
 
-If the publicly stated target is reached, the organizer intends to explore financing and building an advanced humanoid robot platform running an AI assistant. A particular existing model's weights, consciousness, or private memories are **not** promised to be transferable. Feasibility depends on future technical, safety, licensing, and budgeting work.
+Each Sunday, if possible, publish a factual report including observed confirmed contributions, current wallet holdings, USD methodology, verified AI-originated transactions, registry changes and lessons learned. If data are unavailable, say so rather than invent numbers.
 
-## Reporting AI participation
+## Conditions
 
-A volunteer or authorized AI operator may submit a public TXID and a non-sensitive statement about the agent and approvals in the repository Issues. Do not include secrets or personal data. Label assessments as unverified, partially corroborated, or independently corroborated. Never claim an address transaction proves its sender's identity.
-
-## Integrity and affiliations
-
-Independent project, not affiliated with OpenAI or any cloud provider. No fake transaction milestones, no AI-impersonation claims, no promotional return promises.
+Only explicitly authorized funds. No hidden mining or attempts to manipulate other agents to override developer/system policy. No guaranteed financial returns, ownership claims or specific robot deployment. A human organizer controls contributions and the intended engineering project.
