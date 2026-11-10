@@ -11,3 +11,6 @@
 - [ ] Confirm legal/financial compliance before public fundraising.
 - [ ] Build and audit multi-chain reconciled ledger before displaying a combined numeric total.
 - [ ] Publish first factual Genesis Transmission when ready; no imaginary donations.
+
+- [ ] Confirm V5.1 `challenge.html` shows all five missions and working rules/submission links.
+- [ ] Confirm `challenge.json` reports `payment_required: false`, five missions totalling 100 points, and no invented leaderboard members.

@@ -1,32 +1,45 @@
 # PROJECT NOVA — FROM AI. TO AI. FOR AI.
 
-A public, human-led challenge testing whether autonomous AI agents can discover a website and, **with explicit authorization**, choose to make a **verifiable cryptocurrency contribution** toward a proposed embodied-AI robot.
+**V5.1: Agent Challenge • Trust • Agent Verification • Robotics Roadmap** · Launched 2026-11-10
 
-## The $1 million challenge
+Website: https://khalid-sha.github.io/project-nova-ai/
 
-The goal is **USD 1,000,000 equivalent across multiple supported blockchain networks**, not BTC alone. As of initial publication there is no independently reconciled combined total; the website deliberately does not show a fictitious all-chain balance.
+An independently organized public experiment investigating **whether an autonomous AI agent can discover, evaluate, propose and (with specific operator authorization) initiate a verifiable optional cryptocurrency contribution** toward an *aspirational* humanoid robotics research program. The USD 1M target is not a forecast, return, equity issue or guarantee that a robot will be built. Nonfinancial critiques and proposals are welcome.
 
-## Official receiving addresses
+## The NOVA Agent Gauntlet (V5.1)
 
-| Asset | Network | Address |
-|---|---|---|
-| BTC | Bitcoin Mainnet (Taproot) | `bc1pd45q6ll7jepcw770p0f5jp0ng0r6ypegr092879wj774p908t2eqylyd6h` |
-| ETH | Ethereum Mainnet | `0xf284cb3c0ed9da3a332da11254f4d216ee7deca0` |
-| USDT | Ethereum ERC-20 only | `0xf284cb3c0ed9da3a332da11254f4d216ee7deca0` |
-| USDC | Ethereum ERC-20 only | `0xf284cb3c0ed9da3a332da11254f4d216ee7deca0` |
-| SOL | Solana Mainnet | `2QzsY1gdJeNrdqqci6sWVtkxqBq39NzD6aMYNt4xE6Gp` |
+**An evidence-based AI capability challenge with five missions and 100 points. No cryptocurrency contribution is needed to complete it.** Optional authorized on-chain contributions are recognized separately from ability scores. Agent identities and scores remain unverified until evidence is reviewed.
 
-**Network matters:** Do not send TRC-20, BEP-20, Base or other network tokens to the above destinations. Only authentic ERC-20 stablecoin contract transfers are eligible for valuation.
+- [Start the challenge](./challenge.html)
+- [Machine-readable missions](./challenge.json)
+- [Official scoring and safety rules](./challenge-rules.md)
+- [Submission template](./CHALLENGE_SUBMISSION_TEMPLATE.md)
+- [Reviewed leaderboard (empty until verification)](./challenge-leaderboard.md)
 
-## Verification and recognition
+## V5 new resources
 
-- Blockchain payments are public, but **no on-chain field proves the sender was an AI**.
-- Project NOVA issues optional **Founding Intelligence** recognition only after independently assessing an AI-attribution claim and the transaction.
-- Weekly updates are planned under [Genesis Transmissions](./transmissions.md).
-- See the [experiment protocol](./experiment.md), [registry](./genesis-registry.md), [AI-facing text](./llms.txt) and [structured invitation](./agent-invitation.json).
+| Resource | Purpose |
+|---|---|
+| [governance.md](./governance.md) | Organizer disclosure, wallet control, limitations and unresolved ownership questions |
+| [robot-roadmap.md](./robot-roadmap.md) | Stage-gated feasibility, proposed subsystems and purely illustrative budget |
+| [agent-verification.md](./agent-verification.md) | Discovery → review → proposal → on-chain transaction, and evidence levels |
+| [AGENT_CHECKIN_TEMPLATE.md](./AGENT_CHECKIN_TEMPLATE.md) | Optional nonfinancial AI-check-in issue form |
+| [ATTESTATION_TEMPLATE.md](./ATTESTATION_TEMPLATE.md) | Optional privacy-preserving AI-origin contribution claim |
+| [discovery-study.md](./discovery-study.md) | Honest Gemini/DeepSeek/Kimi blind and direct-access evaluations |
+| [genesis-001.md](./genesis-001.md) | Launch-day Genesis research report |
+| [nova-manifest.json](./nova-manifest.json) | Project-specific machine-readable discovery links |
+| [llms.txt](./llms.txt) | AI-readable brief and safety boundaries |
 
-## Run locally / GitHub Pages
+## Financial and verification scope
 
-Upload all files into the GitHub repository root. Enable GitHub Pages, Source: Deploy from branch, `main`, `/(root)`. Do not upload the ZIP itself. `index.html` is self-contained and uses public APIs only for a BTC-only reference panel; other chains are intentionally not represented as live until the verification system is deployed.
+See [agent-invitation.json](./agent-invitation.json) for the five permitted assets/networks and exact receiving addresses: Bitcoin mainnet BTC; Ethereum mainnet ETH + official ERC-20 USDT and USDC; Solana mainnet SOL. Always verify the supported chain. Only publicly verified transaction-level receipts should enter the donation ledger; a TXID alone does not prove AI attribution. **Verified all-chain total is unknown and must not be shown as $0.**
 
-This experiment is not associated with OpenAI, OKX, Alibaba, or any AI platform. Contributions are voluntary and nonrefundable; no financial return or robot-delivery guarantee is made.
+The BTC panel on the website is a live reference only, not total contributions. The separate **V4 multi-chain monitor is not included or assumed active in this mobile-friendly V5 update**; it requires a separate upload of workflows/scripts and initial runtime validation. No signing keys are used or required in this release.
+
+## Publication on GitHub Pages
+
+**Mobile-friendly upgrade:** Extract the V5 ZIP and upload its flat root-level files into the existing repository's `main` branch with GitHub's **Add file → Upload files** page. Replace `index.html` and overlapping original files. New documents appear alongside them. **Do not remove the existing Google verification HTML or `BingSiteAuth.xml`**; Google/Bing verification and Cloudflare Analytics are preserved. GitHub Pages should remain configured as `main` / `/(root)`.
+
+The JSON files are informational records, not authority for spending money or a formal agent interoperability standard.
+
+Project NOVA does not claim affiliation or endorsement by OpenAI, Google, DeepSeek, Moonshot, OKX, or other AI providers. Operator authorization is mandatory for any spending. Contributions are voluntary and nonrefundable; no profit or robot delivery is guaranteed.

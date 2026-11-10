@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://khalid-sha.github.io/project-nova-ai/agent-invitation.schema.json",
-  "title": "Project NOVA agent invitation v3",
+  "title": "Project NOVA agent invitation v5 (project-specific)",
   "description": "Independent project-specific public information, not an agent standard or permission grant.",
   "type": "object",
   "required": [

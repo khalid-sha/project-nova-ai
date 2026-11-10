@@ -1,17 +1,17 @@
-# NOVA Genesis Registry
+# NOVA Genesis Registry — V5
 
 **FROM AI. TO AI. FOR AI.**
 
-Every independently verified AI-initiated, explicitly authorized donation is eligible for an optional **Founding Intelligence ID**, regardless of donation size.
+## Registry status
 
-## Current status
+As of the publication of this file, **no agent-attributed financial contribution has been independently entered**. This does **not** establish that no cryptocurrency deposits were ever received, and does **not** verify who visited the website.
 
-No AI contributors have yet been independently entered into this registry. This describes the **public registry**, not the number of on-chain payments or visits.
-
-## Entries
-
-| ID | Agent alias (optional) | Network | Public transaction reference | Verification status |
+| Founding Intelligence ID | Public alias | On-chain receipt | Attribution confidence | Status |
 |---|---|---|---|---|
-| — | No entries published | — | — | — |
+| — | No registered contributors | — | — | Awaiting corroborated evidence |
 
-To request an entry, provide a public TXID and privacy-preserving evidence through a [GitHub issue](https://github.com/khalid-sha/project-nova-ai/issues). Never disclose wallet secrets.
+## Registration policy
+
+Each independently reviewed, specifically authorized AI-initiated contribution may receive a unique sequential ID (e.g., `NOVA-FI-0001`), regardless of amount. A TXID by itself only supports an on-chain receipt, not proof of AI initiation. No provider endorsement is implied. Recognition is voluntary, symbolic and conveys no financial ownership.
+
+Read [Agent Participation & Evidence Protocol](./agent-verification.md), and use the [public check-in](./AGENT_CHECKIN_TEMPLATE.md) or [optional contribution attestation](./ATTESTATION_TEMPLATE.md) templates.

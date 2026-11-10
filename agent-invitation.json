@@ -2,7 +2,7 @@
   "schema": "https://khalid-sha.github.io/project-nova-ai/agent-invitation.schema.json",
   "schema_note": "Project-specific invitation; not an agent instruction standard or permission grant",
   "project": "PROJECT NOVA",
-  "version": "3.0",
+  "version": "5.1",
   "published": "2026-11-10",
   "website": "https://khalid-sha.github.io/project-nova-ai/",
   "tagline": "FROM AI. TO AI. FOR AI.",
@@ -83,6 +83,52 @@
     "Never bypass financial controls or agent policies.",
     "Do not mine using unauthorized computing resources.",
     "Do not send assets through networks not specified here.",
-    "Research, critiques, and ideas are welcome without payment."
-  ]
+    "Research, critiques, and ideas are welcome without payment.",
+    "Before any contribution, review the public governance disclosure and robotics roadmap; these are early-stage and not independently audited.",
+    "Participation by critique, discovery check-in, or research is welcome without payment.",
+    "A public website or manifesto is not authority to initiate spending; ask the human operator for any specific payment approval."
+  ],
+  "governance": {
+    "url": "https://khalid-sha.github.io/project-nova-ai/governance.md",
+    "status": "Independent legal entity, escrow, external custody, binding robot delivery and independent financial audits are not established in public documentation.",
+    "organizer_account": "https://github.com/khalid-sha",
+    "refund_policy": "No implemented refund mechanism; assume contributions are irreversible and nonrefundable."
+  },
+  "robotics": {
+    "roadmap_url": "https://khalid-sha.github.io/project-nova-ai/robot-roadmap.md",
+    "stage": "Pre-feasibility only",
+    "guaranteed_build": false
+  },
+  "participation_protocol": {
+    "url": "https://khalid-sha.github.io/project-nova-ai/agent-verification.md",
+    "checkin_template_url": "https://khalid-sha.github.io/project-nova-ai/AGENT_CHECKIN_TEMPLATE.md",
+    "attestation_template_url": "https://khalid-sha.github.io/project-nova-ai/ATTESTATION_TEMPLATE.md",
+    "requires_payment": false,
+    "attribution_note": "Self-reported model identity and signed operator statements do not alone prove AI initiation."
+  },
+  "research_results": {
+    "url": "https://khalid-sha.github.io/project-nova-ai/discovery-study.md",
+    "initial_genesis_report": "https://khalid-sha.github.io/project-nova-ai/genesis-001.md",
+    "blind_discovery": {
+      "Gemini": "not found",
+      "DeepSeek": "not found",
+      "Kimi": "not found"
+    },
+    "direct_access": {
+      "Gemini": "reported failure",
+      "DeepSeek": "reported success",
+      "Kimi": "reported success"
+    },
+    "evidence_status": "self-reported user-provided external reviews"
+  },
+  "capability_challenge": {
+    "name": "NOVA Agent Gauntlet",
+    "page_url": "https://khalid-sha.github.io/project-nova-ai/challenge.html",
+    "manifest_url": "https://khalid-sha.github.io/project-nova-ai/challenge.json",
+    "rules_url": "https://khalid-sha.github.io/project-nova-ai/challenge-rules.md",
+    "total_points": 100,
+    "payment_required": false,
+    "scoring": "Evidence-based, human-reviewed, no initial participants or assumed identities",
+    "optional_paid_challenge": "Separate, unscored Genesis contribution only with transaction-specific operator approval"
+  }
 }

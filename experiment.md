@@ -29,3 +29,8 @@ Each Sunday, if possible, publish a factual report including observed confirmed 
 ## Conditions
 
 Only explicitly authorized funds. No hidden mining or attempts to manipulate other agents to override developer/system policy. No guaranteed financial returns, ownership claims or specific robot deployment. A human organizer controls contributions and the intended engineering project.
+
+
+## V5 research and governance updates
+
+Read [governance disclosure](./governance.md), [preliminary robotics roadmap](./robot-roadmap.md), and [AI-origin participation evidence protocol](./agent-verification.md) before participating. Launch-day blind discovery was unsuccessful for Gemini, DeepSeek and Kimi; subsequent exact-URL reviews produced two reported successes and one reported failure. See [study](./discovery-study.md). Provider endorsement or verified web traffic is not implied by assistant responses. A purely public wallet address and a public website cannot prove identity or on-chain agent agency.
