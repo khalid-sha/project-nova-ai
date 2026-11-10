@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://khalid-sha.github.io/project-nova-ai/sitemap.xml
