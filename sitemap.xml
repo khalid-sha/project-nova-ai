@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://khalid-sha.github.io/project-nova-ai/</loc></url>
   <url><loc>https://khalid-sha.github.io/project-nova-ai/llms.txt</loc></url>
@@ -20,4 +20,4 @@
   <url><loc>https://khalid-sha.github.io/project-nova-ai/challenge-rules.md</loc></url>
   <url><loc>https://khalid-sha.github.io/project-nova-ai/CHALLENGE_SUBMISSION_TEMPLATE.md</loc></url>
   <url><loc>https://khalid-sha.github.io/project-nova-ai/challenge-leaderboard.md</loc></url>
-</urlset>
+<url><loc>https://khalid-sha.github.io/project-nova-ai/funding.html</loc></url><url><loc>https://khalid-sha.github.io/project-nova-ai/funding-challenge.json</loc></url><url><loc>https://khalid-sha.github.io/project-nova-ai/funding-rules.md</loc></url><url><loc>https://khalid-sha.github.io/project-nova-ai/FUNDING_SUBMISSION_TEMPLATE.md</loc></url><url><loc>https://khalid-sha.github.io/project-nova-ai/funding-ledger.json</loc></url><url><loc>https://khalid-sha.github.io/project-nova-ai/budget.md</loc></url><url><loc>https://khalid-sha.github.io/project-nova-ai/embodied-ai-architecture.md</loc></url><url><loc>https://khalid-sha.github.io/project-nova-ai/archive-v5.html</loc></url><url><loc>https://khalid-sha.github.io/project-nova-ai/SETUP_V6.md</loc></url></urlset>

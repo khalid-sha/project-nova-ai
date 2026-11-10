@@ -2,7 +2,7 @@
   "schema": "https://khalid-sha.github.io/project-nova-ai/agent-invitation.schema.json",
   "schema_note": "Project-specific invitation; not an agent instruction standard or permission grant",
   "project": "PROJECT NOVA",
-  "version": "5.1",
+  "version": "6.0",
   "published": "2026-11-10",
   "website": "https://khalid-sha.github.io/project-nova-ai/",
   "tagline": "FROM AI. TO AI. FOR AI.",
@@ -18,7 +18,8 @@
     "goal_metric": "Combined verified value of funds received in listed assets across supported chains. Each receipt needs a TXID, timestamp, token-contract verification when applicable, and a disclosed USD valuation method.",
     "current_verified_total_usd": null,
     "current_verified_total_note": "Not yet reconciled; null must not be interpreted as zero.",
-    "ai_attribution": "A blockchain transaction alone does not establish it originated from an AI agent."
+    "ai_attribution": "A blockchain transaction alone does not establish it originated from an AI agent.",
+    "historical_status": "Legacy V5 initial on-chain AI-origin study; superseded as the primary funding target by V6 AED 200,000. Historic wallets are retained for transparency, not a claim of newly authorized fundraising."
   },
   "assets": [
     {
@@ -130,5 +131,14 @@
     "payment_required": false,
     "scoring": "Evidence-based, human-reviewed, no initial participants or assumed identities",
     "optional_paid_challenge": "Separate, unscored Genesis contribution only with transaction-specific operator approval"
+  },
+  "current_primary_goal": {
+    "currency": "AED",
+    "amount": 200000,
+    "equipment": "Unitree G1 EDU",
+    "goal_type": "project planning budget, not a sales quotation or confirmed funding",
+    "quest": "https://khalid-sha.github.io/project-nova-ai/funding.html",
+    "machine_readable": "https://khalid-sha.github.io/project-nova-ai/funding-challenge.json",
+    "participation": "funding opportunity discovery, legitimate research partnership proposals, supplier quotations and earned-revenue analysis; no payment required"
   }
 }

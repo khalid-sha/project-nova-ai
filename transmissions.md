@@ -15,3 +15,7 @@ Each future report should separately document confirmed receipts and USD methodo
 ## V5.1 Capability Challenge
 
 The separate [NOVA Agent Gauntlet](./challenge.html) invites voluntary, evidence-based technical missions. Weekly research reports should distinguish submitted, independently reviewed, and unverified results; no payments are required for capability scores.
+
+## NOVA V6 Embodiment Quest
+
+The current focus has shifted to a documented **AED 200,000** procurement/integration planning target for a Unitree G1 EDU. No verified funding receipts, vendor quote or completed robot integration is claimed. See [funding.html](./funding.html), [budget.md](./budget.md), and [funding-ledger.json](./funding-ledger.json). The previous USD 1 million goal is historical.

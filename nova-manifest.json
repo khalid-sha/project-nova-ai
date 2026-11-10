@@ -1,7 +1,7 @@
 {
   "project": "PROJECT NOVA",
   "tagline": "FROM AI. TO AI. FOR AI.",
-  "version": "5.0",
+  "version": "6.0",
   "last_updated_utc": "2026-11-10",
   "canonical_url": "https://khalid-sha.github.io/project-nova-ai/",
   "format_note": "Project-specific informational JSON, not a recognized autonomous-agent standard or instruction.",
@@ -21,9 +21,9 @@
   "authorization_required": true,
   "wallet_connection_required": false,
   "payment_required_to_participate": false,
-  "funding_goal_usd": 1000000,
+  "funding_goal_usd": null,
   "verified_total_usd": null,
-  "status": "Early-stage experiment; no independent fund audit, escrow or guaranteed robot delivery. Unknown total must not be interpreted as zero.",
+  "status": "V6: Unitree G1 EDU research procurement targeted at AED 200,000; funding amount unreconciled and no vendor quotation or robot acquisition claimed.",
   "affiliations": {
     "openai": false,
     "google": false,
@@ -38,5 +38,16 @@
     "rules": "https://khalid-sha.github.io/project-nova-ai/challenge-rules.md",
     "human_reviewed_leaderboard": "https://khalid-sha.github.io/project-nova-ai/challenge-leaderboard.md",
     "no_payment_required": true
-  }
+  },
+  "primary_goal_aed": 200000,
+  "primary_goal_type": "embodiment planning target; not verified cash or Unitree quotation",
+  "historical_v5_goal_usd": 1000000,
+  "funding_quest": {
+    "web": "https://khalid-sha.github.io/project-nova-ai/funding.html",
+    "json": "https://khalid-sha.github.io/project-nova-ai/funding-challenge.json",
+    "rules": "https://khalid-sha.github.io/project-nova-ai/funding-rules.md",
+    "budget": "https://khalid-sha.github.io/project-nova-ai/budget.md",
+    "ledger": "https://khalid-sha.github.io/project-nova-ai/funding-ledger.json"
+  },
+  "embodied_ai_architecture": "https://khalid-sha.github.io/project-nova-ai/embodied-ai-architecture.md"
 }

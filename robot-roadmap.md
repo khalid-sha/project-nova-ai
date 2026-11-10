@@ -1,3 +1,9 @@
+# V6 note — Updated procurement direction
+
+The current priority is procurement and integration of a programmable **Unitree G1 EDU**, within the **AED 200,000** planning target. The older document below preserves V5 research thinking; it is no longer the primary plan. See [budget.md](./budget.md) and [embodied-ai-architecture.md](./embodied-ai-architecture.md).
+
+---
+
 # Project NOVA — Embodied AI Engineering Roadmap (Concept V5)
 
 **Status: pre-feasibility research proposal — NOT an approved engineering specification, supplier quotation, construction schedule, or procurement commitment.**

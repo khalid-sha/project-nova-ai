@@ -1,0 +1,22 @@
+{
+  "program": "PROJECT NOVA V6",
+  "as_of_utc": "2026-11-10",
+  "target_aed": 200000,
+  "cash_received_verified_aed": null,
+  "cash_commitments_verified_aed": null,
+  "in_kind_verified_aed": null,
+  "accounting_status": "not_reconciled",
+  "note": "No confirmed V6 funding entries published. null is unknown/not reconciled, not zero. The legacy Bitcoin-only reference is not a combined or converted AED balance.",
+  "entries": [],
+  "allowed_statuses": [
+    "discovered",
+    "qualified",
+    "contacted",
+    "committed",
+    "received",
+    "in_kind",
+    "rejected",
+    "expired"
+  ],
+  "rule": "Amounts count as received only with appropriate private reconciliation and public evidence; never count contacts, pledges or discounts as received cash."
+}

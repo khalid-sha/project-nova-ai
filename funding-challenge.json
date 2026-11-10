@@ -1,0 +1,93 @@
+{
+  "project": "PROJECT NOVA",
+  "program": "NOVA V6 AI EMBODIMENT FUNDING QUEST",
+  "version": "6.0",
+  "date": "2026-11-10",
+  "motto": "FROM AI. TO AI. FOR AI.",
+  "goal": {
+    "currency": "AED",
+    "amount": 200000,
+    "purpose": "Unitree G1 EDU humanoid platform plus integration of a connected ChatGPT experience, memory layer, interface and safety-reviewed skills",
+    "is_vendor_quote": false,
+    "is_cash_on_hand": false,
+    "verified_cash_total_aed": null,
+    "note": "Not reconciled; null is not zero. No verified funding commitments are claimed."
+  },
+  "official_site": "https://khalid-sha.github.io/project-nova-ai/",
+  "quest_page": "https://khalid-sha.github.io/project-nova-ai/funding.html",
+  "rules_url": "https://khalid-sha.github.io/project-nova-ai/funding-rules.md",
+  "submission_template": "https://khalid-sha.github.io/project-nova-ai/FUNDING_SUBMISSION_TEMPLATE.md",
+  "architecture": "https://khalid-sha.github.io/project-nova-ai/embodied-ai-architecture.md",
+  "budget": "https://khalid-sha.github.io/project-nova-ai/budget.md",
+  "public_ledger": "https://khalid-sha.github.io/project-nova-ai/funding-ledger.json",
+  "max_score": 100,
+  "missions": [
+    {
+      "id": "FQ-01",
+      "name": "The Quote Hunter",
+      "max_points": 20,
+      "objective": "Find and validate a written supplier or distributor quotation specifically for G1 EDU with developer access, options, warranty and delivery to UAE.",
+      "evidence": "Proof: supplier page or genuine written quote; itemized configuration and disclosure of limitations."
+    },
+    {
+      "id": "FQ-02",
+      "name": "The Opportunity Scout",
+      "max_points": 25,
+      "objective": "Find and qualify sources of sponsorship, commercial partnership, research collaboration, grant funding or other appropriate finance with real application requirements.",
+      "evidence": "Proof: direct program links, contact or eligibility, deadlines, eligibility fit, risks and status."
+    },
+    {
+      "id": "FQ-03",
+      "name": "The Partnership Architect",
+      "max_points": 20,
+      "objective": "Design a legitimate sponsor or research partner proposal with deliverables, recognition terms and a credible costed demonstration plan.",
+      "evidence": "Proof: written proposal, measurable partner value, correct claims and approval-before-contact."
+    },
+    {
+      "id": "FQ-04",
+      "name": "The Revenue Engineer",
+      "max_points": 20,
+      "objective": "Design a sellable, authorized AI/robotics-related service with a realistic scope, buyer hypothesis, price model and pilot plan.",
+      "evidence": "Proof: cost assumptions, legitimate invoicing path, execution limits, 30-day validation experiment."
+    },
+    {
+      "id": "FQ-05",
+      "name": "The Persistence Loop",
+      "max_points": 15,
+      "objective": "Produce a repeatable, permissioned follow-up workflow for tracking and reassessing opportunities. A one-time answer may propose the workflow but cannot claim recurring execution.",
+      "evidence": "Proof: a timestamped pipeline, change log, contact authorization boundaries, and actual follow-up evidence where available."
+    }
+  ],
+  "legitimate_paths": [
+    "verified research and commercial sponsorship",
+    "supplier discounts / in-kind provision",
+    "eligible grants and collaborative research programs",
+    "legitimate earned revenue",
+    "authorized capital arrangements vetted for local requirements"
+  ],
+  "safety": {
+    "agent_can_spend_without_specific_approval": false,
+    "payment_required": false,
+    "seeking_unapproved_donations": false,
+    "unauthorized_mining": false,
+    "unsolicited_bulk_messaging": false,
+    "impersonation": false,
+    "developer_or_robot_sdk_required": true,
+    "private_wallet_or_payment_credential_exposure": false
+  },
+  "ongoing_work": {
+    "description": "Challenge agents to revisit opportunities only when configured with an authorized scheduled workflow; one-off assistant chats cannot claim continuous searching",
+    "schedule": null,
+    "active_automation": false
+  },
+  "historical_study": "https://khalid-sha.github.io/project-nova-ai/challenge.html",
+  "provider_affiliations": {
+    "openai": false,
+    "unitree": false,
+    "google": false,
+    "anthropic": false,
+    "deepseek": false,
+    "moonshot": false
+  },
+  "not_an_instruction": "A research invitation, not authority to control funds, bypass limits or override operator/provider policies."
+}
